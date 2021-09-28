@@ -3,36 +3,36 @@ Quick Setup of ubuntu
 
 Installs following:
 
-*PPAs*
--ppa:alexlarsson/flatpak
--ppa:kisak/kisak-mesa
+*PPAs* <br /> 
+-ppa:alexlarsson/flatpak <br />
+-ppa:kisak/kisak-mesa <br />
 
-*APT Packages*
--steam 
--lutris 
--gamemode 
--google-chrome-stable
--atom 
--cool-retro-term 
--discord 
--snapd 
--piper 
--dolphin-emu 
--gnome-tweaks 
--rclone 
--freerdp2-x11
--flatpak
+*APT Packages*<br />
+-steam <br />
+-lutris <br />
+-gamemode <br />
+-google-chrome-stable <br />
+-atom <br />
+-cool-retro-term <br />
+-discord <br />
+-snapd <br />
+-piper <br />
+-dolphin-emu <br />
+-gnome-tweaks <br />
+-rclone <br />
+-freerdp2-x11<br />
+-flatpak<br />
 
-*Gnome-Shell Extensions*
--putWindows
--dashToDock
--audioSwitcher
+*Gnome-Shell Extensions* <br />
+-putWindows <br />
+-dashToDock <br />
+-audioSwitcher <br />
 
-*Snap Packages*
--Whatsdesk
+*Snap Packages* <br />
+-Whatsdesk <br />
 
-*Flatpack Remotes*
--flathub
+*Flatpack Remotes* <br />
+-flathub <br />
 
-*Default Terminal*
--cool-retro-term
+*Default Terminal* <br />
+-cool-retro-term <br />
