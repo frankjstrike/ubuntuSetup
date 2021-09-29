@@ -27,6 +27,7 @@ echo "************************"
 echo ""
 sudo add-apt-repository ppa:alexlarsson/flatpak
 sudo add-apt-repository ppa:kisak/kisak-mesa # Stable AMD graphic drivers
+sudo add-apt-repository ppa:lutris-team/lutris
 
 # Update system
 echo ""
@@ -42,16 +43,19 @@ echo "************************"
 echo "Installing Apt Packages"
 echo "************************"
 echo ""
-sudo apt install -y --allow-downgrades steam lutris gamemode google-chrome-stable \
-atom cool-retro-term discord snapd piper dolphin-emu \
+sudo apt install -y --allow-downgrades steam lutris gamemode \
+cool-retro-term snapd piper dolphin-emu \
 gnome-tweaks rclone freerdp2-x11 flatpak
 
+# Install Google Chrome
+sudo apt install ./google-chrome-stable_current_amd64.deb
+
+# Install Gnome-Tweaks extensions
 echo ""
 echo "************************"
 echo "Installing Gnome Extnesions"
 echo "************************"
 echo ""
-# Install Gnome-Tweaks extensions
 installExtension putWindows
 installExtension dashToDock
 installExtension audioSwitcher
@@ -63,6 +67,8 @@ echo "Installing Snap Packages"
 echo "************************"
 echo ""
 sudo snap install whatsdesk
+sudo snap install discord
+sudo snap install atom
 
 # Configure Flatpak
 echo ""
