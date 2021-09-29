@@ -6,15 +6,14 @@ Installs following:
 *PPAs* <br /> 
 -ppa:alexlarsson/flatpak <br />
 -ppa:kisak/kisak-mesa <br />
+-ppa:lutris-team/lutris <br />
 
 *APT Packages*<br />
 -steam <br />
 -lutris <br />
 -gamemode <br />
 -google-chrome-stable <br />
--atom <br />
 -cool-retro-term <br />
--discord <br />
 -snapd <br />
 -piper <br />
 -dolphin-emu <br />
@@ -30,6 +29,8 @@ Installs following:
 
 *Snap Packages* <br />
 -Whatsdesk <br />
+-discord <br />
+-atom <br />
 
 *Flatpack Remotes* <br />
 -flathub <br />
