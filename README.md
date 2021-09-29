@@ -26,6 +26,7 @@ Installs following:
 -putWindows <br />
 -dashToDock <br />
 -audioSwitcher <br />
+-gsconnect <br />
 
 *Snap Packages* <br />
 -Whatsdesk <br />
