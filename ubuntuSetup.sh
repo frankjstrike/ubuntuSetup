@@ -59,6 +59,7 @@ echo ""
 installExtension putWindows
 installExtension dashToDock
 installExtension audioSwitcher
+installExtension gsconnect
 
 # Install snap packages
 echo ""
