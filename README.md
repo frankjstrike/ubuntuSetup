@@ -7,6 +7,7 @@ Installs following:
 -ppa:alexlarsson/flatpak <br />
 -ppa:kisak/kisak-mesa <br />
 -ppa:lutris-team/lutris <br />
+-ppa:flexiondotorg/mangohud <br />
 
 *APT Packages*<br />
 -steam <br />
@@ -21,6 +22,7 @@ Installs following:
 -rclone <br />
 -freerdp2-x11<br />
 -flatpak<br />
+-goverlay <br />
 
 *Gnome-Shell Extensions* <br />
 -putWindows <br />
