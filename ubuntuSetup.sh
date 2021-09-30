@@ -28,6 +28,7 @@ echo ""
 sudo add-apt-repository ppa:alexlarsson/flatpak
 sudo add-apt-repository ppa:kisak/kisak-mesa # Stable AMD graphic drivers
 sudo add-apt-repository ppa:lutris-team/lutris
+sudo add-apt-repository ppa:flexiondotorg/mangohud
 
 # Update system
 echo ""
@@ -44,9 +45,9 @@ echo "Installing Apt Packages"
 echo "************************"
 echo ""
 sudo apt install -y --allow-downgrades steam lutris gamemode \
-cool-retro-term snapd piper dolphin-emu \
-gnome-tweaks rclone freerdp2-x11 flatpak libvulkan1 mesa-vulkan-drivers \
-vulkan-utils
+cool-retro-term snapd piper dolphin-emu gnome-tweaks rclone \
+freerdp2-x11 flatpak libvulkan1 mesa-vulkan-drivers vulkan-utils\
+goverlay
 
 # Install Google Chrome
 sudo apt install ./google-chrome-stable_current_amd64.deb
