@@ -46,7 +46,7 @@ echo "************************"
 echo ""
 sudo apt install -y --allow-downgrades steam lutris gamemode \
 cool-retro-term snapd piper dolphin-emu gnome-tweaks rclone \
-freerdp2-x11 flatpak libvulkan1 mesa-vulkan-drivers vulkan-utils\
+freerdp2-x11 flatpak libvulkan1 mesa-vulkan-drivers vulkan-utils \
 goverlay
 
 # Install Google Chrome
